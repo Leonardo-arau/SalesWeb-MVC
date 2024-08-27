@@ -15,6 +15,10 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Nome"] = "Leonardo Araújo de Oliveira";
+            ViewData["Message"] = "Your application description page.";
+            //ViewData["email"] = "leo-a-oliveira@outlook.com";
+
             return View();
         }
 
